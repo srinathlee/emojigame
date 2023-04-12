@@ -1,0 +1,68 @@
+.main-bg-container {
+  background-color: beige;
+}
+.cards-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.cards-frame {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.result-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.result-score-heading {
+  font-size: 15px;
+  font-weight: bold;
+}
+.result-score {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.play-again {
+  height: 45px;
+  width: 130px;
+  border-radius: 15px;
+  color: black;
+  background-color: #ffce27;
+  border: none;
+  font-weight: bold;
+}
+.result-text-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.win-loose-bg-container {
+  background-color: #726f8f;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .cards-container {
+    width: 90%;
+  }
+  .win-loose-bg-container {
+    width: 80%;
+  }
+  .img {
+    width: 40%;
+  }
+}
